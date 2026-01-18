@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+:root {
+    --fonte1:"Luckiest Guy", cursive;
+}
+body {
+    background-image: url('imagens/fundo01.jpg');
+    background-size: cover;
+}
+header {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(25, 18, 31, 0.322);
+}
+header > h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(144, 96, 190);
+    font-family: var(--fonte1);
+    font-size: 60px;
+}
+header > p {
+    text-align: center;
+    color: white;
+}
