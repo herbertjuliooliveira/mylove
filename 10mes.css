@@ -2,27 +2,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 :root {
     --fonte1:"Luckiest Guy", cursive;
+    --fonte3:"Dancing Script", cursive;
 }
 body {
-    background-image: url('imagens/fundo01.jpg');
+    background-image: url('imagens/fundo02.jpg');
+    background-attachment: fixed;
     background-size: cover;
 }
 header {
-    width: 500px;
-    height: 500px;
     margin: auto;
-    background-color: rgba(25, 18, 31, 0.322);
 }
-header > h1 {
+div {
     text-align: center;
-    padding-top: 40px;
-    color: rgb(144, 96, 190);
+    color: rgb(238, 134, 254);
     font-family: var(--fonte1);
-    font-size: 60px;
+    font-size: 35px;
+    font-variant: small-caps
 }
 header > p {
     text-align: center;
     color: white;
+    font-family: var(--fonte3);
+    font-size: 25px;
 }
+ a {
+    text-decoration: none;
+    background-color: rgb(211, 160, 213);
+    color: rgb(52, 0, 52);
+    font-size: 30px;
+    padding: 8px;
+    font-family: var(--fonte3);
+    font-weight: bolder;
+    border-radius: 25px;
+
+ }
+
+ div > img {
+    background-size: cover;
+    width: 70px;
+    height: 100px;
+    border-radius: 70px;
+    border: 3px solid rgb(23, 13, 32);
+ }
+
