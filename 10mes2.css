@@ -15,7 +15,7 @@
     padding: 0px;
 }
 body {
-    background-image: linear-gradient(to top, rgb(49, 16, 49), rgb(224, 77, 101),blue)
+    background-image: linear-gradient(to bottom, rgb(49, 16, 49), rgb(224, 77, 101),blue)
 }
 header {
     text-align: center;   
@@ -116,7 +116,7 @@ section {
     border: 3px solid beige;
     border-radius: 40px 40px 40px 100px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 .direita {
   background-image: url('imagens/nosimgdireita1.png');
@@ -141,7 +141,7 @@ section {
 .video {
     width: 200px;
     margin: auto;
-    border: 6px solid white;
+    border: 10px solid rgb(91, 130, 238);
 
 
 }
