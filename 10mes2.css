@@ -15,12 +15,7 @@
     padding: 0px;
 }
 body {
-    background-color: blueviolet;
-    background-image: url('imagens/70ca7ff9d5a3402e037b59860c2e9639.jpg');
-    
-    background-size: cover;
-    background-attachment: fixed;
-
+    background-image: linear-gradient(to top, rgb(49, 16, 49), rgb(224, 77, 101),blue)
 }
 header {
     text-align: center;   
@@ -121,7 +116,7 @@ section {
     border: 3px solid beige;
     border-radius: 40px 40px 40px 100px;
     display: inline-block;
-    margin-left: 85px;
+    margin-left: 100px;
 }
 .direita {
   background-image: url('imagens/nosimgdireita1.png');
@@ -142,4 +137,11 @@ section {
     padding: 15px;
     color: rgb(93, 203, 250);
     font-family: var(--fonte1);
+}
+.video {
+    width: 200px;
+    margin: auto;
+    border: 6px solid white;
+
+
 }
