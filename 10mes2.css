@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parisienne&family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Parisienne&family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Macondo&family=Playball&display=swap');
+
+:root {
+    --fonte1: "Playball", cursive;
+    --fonte2:"Great Vibes", cursive;
+    --fonte3:"Macondo", cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blueviolet;
+    background-image: url('imagens/70ca7ff9d5a3402e037b59860c2e9639.jpg');
+    
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header {
+    text-align: center;   
+    background-color: rgb(96, 159, 214);
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    font-family: var(--fonte1);
+    border: 3px solid rgb(255, 255, 255);
+}
+button {
+    position: absolute;
+    border: solid black;
+    padding: 10px;
+    left: 36%;
+    margin: 5px;
+    font-family: var(--fonte1);
+    font-size: 16px;
+    background-image: linear-gradient(to left, blue, violet);
+    color: white;
+    border-radius: 20px;
+}
+.album {
+    width: 90%;
+    max-width: 900px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #000;
+    margin: auto;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, rgb(232, 123, 142), rgb(69, 15, 69));
+    font-family: "Macondo", cursive;;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+}
+
+.album-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+
+.album-track img {
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.album:hover .album-track {
+    animation-play-state: paused;
+}
+section {
+    background-color: rgba(255, 255, 255, 0.397);
+    margin: auto;
+    width: 300px;
+    text-indent: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: var(--fonte2);
+    font-size: 23px;
+}
