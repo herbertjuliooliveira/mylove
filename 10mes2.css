@@ -97,3 +97,49 @@ section {
     font-family: var(--fonte2);
     font-size: 23px;
 }
+.caixa {
+    margin: auto;
+    width: 400px;
+    height: 200px;
+}
+.central {
+    background-image: url('imagens/nosimgcentral1.jpg');
+    background-size: cover;
+    background-position:center -30px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid beige;
+    margin: auto;
+    border-radius: 50%;
+}
+.esquerda {
+  background-image: url('imagens/nosimgesquerda1.jpg');
+    background-size: cover;
+    background-position:center -30px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid beige;
+    border-radius: 40px 40px 40px 100px;
+    display: inline-block;
+    margin-left: 185px;
+}
+.direita {
+  background-image: url('imagens/nosimgdireita1.png');
+    background-size: cover;
+    background-position:center -30px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid beige;
+    margin: auto;
+    border-radius:40px 40px 100px 40px;
+    display: inline-block;
+}
+.textinho {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    text-indent: 15px;
+    padding: 15px;
+    color: rgb(93, 203, 250);
+    font-family: var(--fonte1);
+}

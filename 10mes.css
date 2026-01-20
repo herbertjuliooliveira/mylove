@@ -13,6 +13,7 @@ body {
     background-image: url('imagens/fundo1.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 header {
     margin: auto;
