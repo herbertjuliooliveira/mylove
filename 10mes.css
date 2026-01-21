@@ -32,8 +32,8 @@ header > p {
 }
  a {
     text-decoration: none;
-    background-color: rgb(211, 160, 213);
-    color: rgb(52, 0, 52);
+    background-image: linear-gradient(to right,rgb(106, 19, 106), rgb(96, 149, 224));
+    color: rgb(41, 9, 41);
     font-size: 30px;
     padding: 8px;
     font-family: var(--fonte3);
@@ -44,9 +44,9 @@ header > p {
 
  div > img {
     background-size: cover;
-    width: 70px;
-    height: 100px;
-    border-radius: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     border: 3px solid rgb(23, 13, 32);
  }
 
